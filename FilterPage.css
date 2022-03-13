@@ -4,7 +4,7 @@
 }
 
 .header {
-  background-color: #ce0505;
+  background-color: #db773c;
   height: 50px;
 }
 
@@ -15,7 +15,7 @@
   background-color: #ffffff;
   border-radius: 50%;
   font-size: 33px;
-  color: #eb2929;
+  color: #db773c;
   margin-left: 1%;
   text-align: center;
 }
@@ -39,11 +39,11 @@
   background-color: #fbfbfb;
 }
 .heading {
-  font-size: 36px;
+  font-size: 39px;
   font-weight: bold;
   color: #192f60;
   text-align: center;
-  padding: 20px;
+  padding: 27px;
 }
 
 .filter-block {
@@ -54,6 +54,23 @@
   border: 1px solid black;
   margin-right: 20px;
   margin-left: 50px;
+}
+
+.filter-block > p {
+  margin-left: 47px;
+}
+
+#slider {
+  text-align: center;
+}
+
+#clear {
+  margin-top: 66px;
+  margin-left: 74px;
+}
+
+#distance {
+  margin-left: 10px;
 }
 
 .item {
@@ -68,5 +85,37 @@
 .image1 {
   width: 244px;
   height: 174px;
-  border-radius: 0px;
+}
+
+.t1 {
+  margin-left: 20px;
+}
+
+.t2 {
+  margin-left: 20px;
+}
+
+.t3 {
+  margin-left: 20px;
+}
+
+.tabul {
+  margin-left: 20px;
+}
+
+#footer {
+  background-color: #db773c;
+  height: 156px;
+  width: 100%;
+  text-align: center;
+}
+
+#cont {
+  padding-left: 38px;
+  text: bold;
+}
+
+#footertext {
+  font-size: 16px;
+  padding-left: 38px;
 }

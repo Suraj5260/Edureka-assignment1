@@ -6,7 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 
-<body>
+<body style="margin:0;">
     <div class="header">
         <div class="header-logo">
             <b>e!</b>
@@ -24,8 +24,33 @@
         <!-- 3 Boxes -->
         <!-- Filter Block -->
         <div class="filter-block" style="display: inline-block;">
-
+            <p class="fheadings"><b>Meals</b></p>
+            <ul style="list-style-type:none;">
+                <li><input type="radio" name="meals">Breakfast</li>
+                <li><input type="radio" name="meals">Brunch</li>
+                <li><input type="radio" name="meals">Lunch</li>
+                <li><input type="radio" name="meals">snacks</li>
+                <li><input type="radio" name="meals">Dinner</li>
+            </ul>
+            <p class="diatance"><b>Filters</b></p>
+            <ul style="list-style-type:none;">
+                <li><input type="checkbox" name="cost">Cost:High to low</li>
+                <li><input type="checkbox" name="cost">Cost:low to high</li>
+                <li><input type="checkbox">Ratings>2</li>
+                <li><input type="checkbox">Ratings>3</li>
+                <li><input type="checkbox">Rating=>4</li>
+            </ul>
+            <p><b>Range</b></p>
+            <div id="slider">
+                <a>5Km
+                <input type="range">
+                20km</a>
+            </div>
+            <div id="clear">
+            <button><b>Clear All Filter</b></button>
+            </div>
         </div>
+
         <!-- Result Blocks -->
         <div style="display: inline-block; vertical-align: top;">
             <div class="item">
@@ -37,7 +62,7 @@
                     <div class="t2">FORT</div>
                     <div class="t3">Shop 1, Plot D, Samruddhi Complex, Chincholi …</div>
                     <div>
-                        <table>
+                        <table class="tabul">
                             <tr style="text-align: left;">
                                 <th>CUISINES</th>
                                 <td>Bakery</td>
@@ -59,7 +84,7 @@
                     <div class="t2">Kurla</div>
                     <div class="t3">Chembur , Change Outlet …</div>
                     <div>
-                        <table>
+                        <table class="tabul">
                             <tr style="text-align: left;">
                                 <th>CUISINES</th>
                                 <td>American,Burger</td>
@@ -81,7 +106,7 @@
                     <div class="t2">Kurla</div>
                     <div class="t3">Kurla …</div>
                     <div>
-                        <table>
+                        <table class="tabul">
                             <tr style="text-align: left;">
                                 <th>CUISINES</th>
                                 <td>Indian</td>
@@ -94,6 +119,17 @@
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+        <div id="cont"><b>Connect With Us</b></div>
+        <ul style="list-style-type: none;">
+            <li><a href="https://www.facebook.com/" target="_blank" >Facebook</a></li>
+            <li><a href="http://www.instagram.com/" target="-_blank">Instagram</a></li>
+            <li><a href="https://www.twitter.com" target="-blank">Twitter</a></li>
+        </ul>
+        <p id="footertext">&copy; Developed by Suraj110</p>
+    </div>
 </body>
 
 </html>
